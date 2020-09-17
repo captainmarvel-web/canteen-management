@@ -1,0 +1,2 @@
+create table sales_mstr(bill_id number(5) constraint bill_no references bill_generate(bill_id),total_item number(10,2),total_qty number(10,2),total_amt number(10,2),total_sales number(10,2),date_coup date)
+/
